@@ -33,19 +33,28 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="POST" action="/signup">
+
+					{{ csrf_field() }}
+
 					<span class="login100-form-title p-b-33">
 						Sign up
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: +966555555555">
-						<input class="input100" type="text"  placeholder="Phone">
+					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: 0555555555">
+						<input class="input100" type="text"  placeholder="Phone" name="phonenumber">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid name is required">
 						<input class="input100" type="text" name="name" placeholder="Name" id="name">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid name is required">
+						<input class="input100" type="text" name="age" placeholder="Age" id="age">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
@@ -57,13 +66,13 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid blood type is required: A+ , B+ ...etc">
-						<input class="input100" type="text" name="blood" placeholder="Blood Type">
+						<input class="input100" type="text" name="bloodtype" placeholder="Blood Type">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
 
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>

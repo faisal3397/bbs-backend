@@ -11,13 +11,15 @@
 |
 */
 
-Route::get('/', 'DonorsController@index');
+Route::get('/', 'DonorsController@index')->name('home');
 
 Route::get('/donors/{donor}', 'DonorsController@show');
 
-Route::get('/signup', 'DonorsController@signup');
+Route::get('/signup', 'RegistrationController@create');
 
-Route::get('/signin', 'DonorsController@signin');
+Route::post('/signup', 'RegistrationController@store');
+
+Route::get('/signin', 'SessionsController@create');
 
 
 

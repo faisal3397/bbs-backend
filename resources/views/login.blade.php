@@ -37,14 +37,14 @@
 						Login
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: +966555555555">
-						<input class="input100" type="text"  placeholder="Phone">
+					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: 0555555555">
+						<input class="input100" type="text"  placeholder="Phone" name="phonenumber">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
 
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
@@ -60,7 +60,7 @@
 							Create an account?
 						</span>
 						<br>
-						<a href="#" class="txt2 hov1">
+						<a href="http://127.0.0.1:8000/signup" class="txt2 hov1">
 							Sign up
 						</a>
 					</div>

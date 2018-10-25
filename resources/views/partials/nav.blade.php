@@ -13,10 +13,10 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right navbar-uppercase">
                 <li>
-                    <a href="register.html" target="_blank">NEW Donor</a>
+                    <a href="http://127.0.0.1:8000/signup" target="">NEW Donor</a>
                 </li>
                 <li>
-                    <a href="login.html" target="_blank">LogIn</a>
+                    <a href="http://127.0.0.1:8000/signin" target="">LogIn</a>
                 </li>
             </ul>
         </div>
