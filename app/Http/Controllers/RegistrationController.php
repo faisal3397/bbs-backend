@@ -28,10 +28,26 @@ class RegistrationController extends Controller
 
         ]);
 
-            
+        // Encrypt the password
+        $pass = request('password'); // get the password
+        $password = bcrypt($pass);  // encrypt
         // Create and save the user
 
-        $user = User::create(request(['phonenumber', 'name', 'password', 'city', 'bloodtype', 'age']));
+        $user = new User;
+        
+        $user->phonenumber = request('phonenumber');
+
+        $user->name = request('name');
+
+        $user->age = request('age');
+
+        $user->city = request('city');
+
+        $user->bloodtype = request('bloodtype');
+
+        $user->password = $password;
+
+        $user->save();
 
         // Sign them in
 
