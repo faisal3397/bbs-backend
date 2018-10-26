@@ -8,7 +8,7 @@
                 <span class="icon-bar bar2"></span>
                 <span class="icon-bar bar3"></span>
             </button>
-            <a href="#" class="navbar-brand">OBBS</a>
+            <img src="assets/img/obbs.png" height="100" width="100">
         </div>
 
         @if(Auth::check())
