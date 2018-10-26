@@ -12,7 +12,7 @@
                 <div class="content">
                     <div class="title-area">
                         <p>Welcome to</p>
-                        <h1 class="title-modern">BBS</h1>
+                        <h1 class="title-modern">OBBS</h1>
                         <h3 class="title-modern">The online blood bank system</h3>
                         <div class="separator line-separator">♦</div>
                     </div>

@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('bloodtype');
             $table->integer('age');
             $table->timestamps();
+            $table->rememberToken();
         });
     }
 

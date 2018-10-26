@@ -24,10 +24,11 @@ class RegistrationController extends Controller
 
             'phonenumber' => 'required|unique:users',
 
-            'password' => 'required'
+            'password' => 'required|confirmed'
 
         ]);
 
+            
         // Create and save the user
 
         $user = User::create(request(['phonenumber', 'name', 'password', 'city', 'bloodtype', 'age']));

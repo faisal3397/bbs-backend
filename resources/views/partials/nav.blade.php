@@ -8,8 +8,23 @@
                 <span class="icon-bar bar2"></span>
                 <span class="icon-bar bar3"></span>
             </button>
-            <a href="#" class="navbar-brand">BBS</a>
+            <a href="#" class="navbar-brand">OBBS</a>
         </div>
+
+        @if(Auth::check())
+        <div class="collapse navbar-collapse">            
+            <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                <li>
+                    <a  href="#"> Hello {{ Auth::user()->name }}</a>
+                </li>
+
+                <li>
+                    <a  href="http://127.0.0.1:8000/signout"> Logout</a>
+                </li>
+            </ul>
+        </div>
+
+        @else
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right navbar-uppercase">
                 <li>
@@ -21,5 +36,10 @@
             </ul>
         </div>
         <!-- /.navbar-collapse -->
+        @endif
+
+        
     </div>
+
+
 </nav> <!-- Nav -->

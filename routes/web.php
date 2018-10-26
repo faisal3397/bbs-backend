@@ -21,6 +21,10 @@ Route::post('/signup', 'RegistrationController@store');
 
 Route::get('/signin', 'SessionsController@create');
 
+Route::post('/signin', 'SessionsController@store');
+
+Route::get('/signout', 'SessionsController@destroy');
+
 
 
 

@@ -41,6 +41,7 @@
 						Sign up
 					</span>
 
+
 					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: 0555555555">
 						<input class="input100" type="text"  placeholder="Phone" name="phonenumber">
 						<span class="focus-input100-1"></span>
@@ -53,7 +54,7 @@
 						<span class="focus-input100-2"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid name is required">
+					<div class="wrap-input100 validate-input" data-validate = "Valid age is required">
 						<input class="input100" type="text" name="age" placeholder="Age" id="age">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
@@ -77,18 +78,30 @@
 						<span class="focus-input100-2"></span>
 					</div>
 
+					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="password_confirmation" placeholder="Password Confirmation">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
 					<div class="container-login100-form-btn m-t-20">
 						<button class="login100-form-btn">
-							Sign in
+							Sign up
 						</button>
 					</div>
 					<br>
+
+					
+
+					@include('partials.errors')
+					
+
 					<div class="text-center">
 						<span class="txt1">
 							have an account?
 						</span>
 						<br>
-						<a href="#" class="txt2 hov1">
+						<a href="http://127.0.0.1:8000/signin" class="txt2 hov1">
 							login
 						</a>
 					</div>
