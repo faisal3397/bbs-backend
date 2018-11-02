@@ -25,16 +25,34 @@
                         <div id="modal" class="modal"> <!--OVerlay-->
 
                           <div class="overlay-content">
-                            <form action="#">
-                              <input type="text" placeholder="Search.." name="search">
-                              <button type="submit"><i class="fa fa-search"></i></button>
-                              <select>
-                                <option>Choose Blood Type</option>
+                            <form method="post" action="/search">
+                            @csrf
+                              <!-- <input type="text" placeholder="Search.." name="search"> -->
+                              
+                              <select name="bloodtype">
+                                <option selected value="choose">Choose Blood Type</option>
                                 <option value="O+">O+</option>
-                                <option value="A+">O+</option>
+                                <option value="A+">A+</option>
                                 <option value="A-">A-</option>
                                 <option value="AB+">Ab+</option>
                               </select>
+                              <select name="city">
+                                  <option value="choose">Select Region:</option>
+                                  <option value="Northern Borders">Northern Borders</option>
+                                  <option value="Al Jawf">Al Jawf</option>
+                                  <option value="Tabuk">Tabuk</option>
+                                  <option value="Hail">Hail</option>
+                                  <option value="Al Qassim">Al Qassim</option>
+                                  <option value="Ar Riyadh">Ar Riyadh</option>
+                                  <option value="Al Madinah">Al Madinah</option>
+                                  <option value="Asir">Asir</option>
+                                  <option value="Al Baha">Al Baha</option>
+                                  <option value="Jazan">Jazan</option>
+                                  <option value="Makkah">Makkah</option>
+                                  <option value="Najran">Najran</option>
+                              </select>
+                              <button type="submit"><i class="fa fa-search"></i></button>
+                             
                             </form>
                           </div>
                         </div>

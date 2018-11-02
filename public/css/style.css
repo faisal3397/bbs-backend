@@ -29,8 +29,18 @@
     text-align: center;
     margin-top: 30px;
     margin: auto;
-
-.blur {
-  filter: blur(1px);
-  display: none;
 }
+.styled-select select {
+  color: rgb(189, 30, 30);
+  width: 250px;
+  height: 20px;
+}
+select option {
+  color: rgb(0, 0, 0)
+} */ 
+ .styped-select select.form-control {
+  color: black;
+}
+styped-select select.form-control option{
+  background-color: #577FBA;
+  }

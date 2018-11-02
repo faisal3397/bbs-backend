@@ -25,6 +25,8 @@ Route::post('/signin', 'SessionsController@store');
 
 Route::get('/signout', 'SessionsController@destroy');
 
+Route::any('/search','SearchController@find');
+
 
 
 
