@@ -30,17 +30,19 @@
     margin-top: 30px;
     margin: auto;
 }
-.styled-select select {
-  color: rgb(189, 30, 30);
-  width: 250px;
-  height: 20px;
-}
-select option {
-  color: rgb(0, 0, 0)
-} */ 
- .styped-select select.form-control {
-  color: black;
-}
-styped-select select.form-control option{
-  background-color: #577FBA;
+
+  .select1 {
+    -webkit-appearance: menulist-button;
+    height: 40px;
+    padding:0 20px 0 20px ;
+    border: 1px solid #e6e6e6; 
+    color: black !important;
+    
+  }
+  .button1 {
+    height: 40px; 
+    width: 40px; 
+    display: inline-block; 
+    background-color: gainsboro;
+    color: black;
   }

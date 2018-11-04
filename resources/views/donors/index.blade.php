@@ -29,7 +29,7 @@
                             @csrf
                               <!-- <input type="text" placeholder="Search.." name="search"> -->
                               
-                              <select name="bloodtype">
+                              <select class="select1" name="bloodtype">
                                 <option selected value="choose">Choose Blood Type</option>
                                 <option value="O+">O+</option>
                                 <option value="O-">O-</option>
@@ -40,7 +40,7 @@
                                 <option value="AB+">AB+</option>
                                
                               </select>
-                              <select name="city">
+                              <select class="select1" name="city">
                                   <option value="choose">Select City:</option>
                                   <option value="Riyadh">Riyadh</option>
                                   <option value="Jeddah">Jeddah</option>
@@ -63,7 +63,7 @@
                                   <option value="Mecca">Mecca</option>
                                   
                               </select>
-                              <button type="submit"><i class="fa fa-search"></i></button>
+                              <button type="submit" class="button1"><i class="fa fa-search fa-lg"></i></button>
                              
                             </form>
                           </div>
