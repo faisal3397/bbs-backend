@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\User;
 
 use Illuminate\Http\Request;
+use Carbon\carbon;
 
 class RegistrationController extends Controller
 {
@@ -38,8 +39,8 @@ class RegistrationController extends Controller
         $user->phonenumber = request('phonenumber');
 
         $user->name = request('name');
-
-        $user->age = request('age');
+        $age= Carbon::parse(request('age'))->age;
+        $user->age = $age;
 
         $user->city = request('city');
 
