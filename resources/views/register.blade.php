@@ -63,7 +63,7 @@
 					<div class="wrap-input100 validate-input" data-validate = "Valid city is required">
 						<!-- <input class="input100" type="text" name="city" placeholder="City"> -->
 						<select class="select1 input100" name="city">
-                                  <option value="choose">Select City:</option>
+                                  <option selected value="">Select City:</option>
                                   <option value="Riyadh">Riyadh</option>
                                   <option value="Jeddah">Jeddah</option>
                                   <option value="Ad Dammam">Ad Dammam</option>
@@ -82,8 +82,7 @@
                                   <option value="Abha">Abha</option>
                                   <option value="Jazan">Jazan</option>
                                   <option value="Dhahran">Dhahran</option>
-                                  <option value="Mecca">Mecca</option>
-                                  
+                                  <option value="Mecca">Mecca</option> 
                               </select>
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
@@ -91,16 +90,16 @@
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid blood type is required: A+ , B+ ...etc">
 						<!-- <input class="input100" type="text" name="bloodtype" placeholder="Blood Type"> -->
-						<select  class= "input100 select1" name="bloodtype">
-                                <option selected value="choose">Choose Blood Type</option>
-                                <option value="O+">O+</option>
-                                <option value="O-">O-</option>
-                                <option value="A+">A+</option>
-                                <option value="A-">A-</option>
-                                <option value="B+">B+</option>
-                                <option value="B-">B-</option>
-                                <option value="AB+">AB+</option>
-                               
+							<select  class= "input100 select1" name="bloodtype">
+								<option selected value="" >Choose Blood Type</option>
+								<option value="O+">O+</option>
+								<option value="O-">O-</option>
+								<option value="A+">A+</option>
+								<option value="A-">A-</option>
+								<option value="B+">B+</option>
+								<option value="B-">B-</option>
+								<option value="AB+">AB+</option>
+							</select>
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>

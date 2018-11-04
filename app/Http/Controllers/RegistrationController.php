@@ -25,7 +25,11 @@ class RegistrationController extends Controller
 
             'phonenumber' => 'required|unique:users',
 
-            'password' => 'required|confirmed'
+            'password' => 'required|confirmed',
+
+            'bloodtype' => 'required|not_in:0',
+
+            'city' => 'required|not_in:0'
 
         ]);
 
