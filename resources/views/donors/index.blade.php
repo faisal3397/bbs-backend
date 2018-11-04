@@ -32,24 +32,36 @@
                               <select name="bloodtype">
                                 <option selected value="choose">Choose Blood Type</option>
                                 <option value="O+">O+</option>
+                                <option value="O-">O-</option>
                                 <option value="A+">A+</option>
                                 <option value="A-">A-</option>
-                                <option value="AB+">Ab+</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="AB+">AB+</option>
+                               
                               </select>
                               <select name="city">
-                                  <option value="choose">Select Region:</option>
-                                  <option value="Northern Borders">Northern Borders</option>
-                                  <option value="Al Jawf">Al Jawf</option>
+                                  <option value="choose">Select City:</option>
+                                  <option value="Riyadh">Riyadh</option>
+                                  <option value="Jeddah">Jeddah</option>
+                                  <option value="Ad Dammam">Ad Dammam</option>
+                                  <option value="Medina">Medina</option>
+                                  <option value="At taif">At taif</option>
+                                  <option value="Al Hufuf">Al Hufuf</option>
                                   <option value="Tabuk">Tabuk</option>
+                                  <option value="Buraydah">Buraydah</option>
                                   <option value="Hail">Hail</option>
-                                  <option value="Al Qassim">Al Qassim</option>
-                                  <option value="Ar Riyadh">Ar Riyadh</option>
-                                  <option value="Al Madinah">Al Madinah</option>
-                                  <option value="Asir">Asir</option>
-                                  <option value="Al Baha">Al Baha</option>
-                                  <option value="Jazan">Jazan</option>
-                                  <option value="Makkah">Makkah</option>
                                   <option value="Najran">Najran</option>
+                                  <option value="Al Qatif">Al Qatif</option>
+                                  <option value="Al Mubarraz">Al Mubarraz</option>
+                                  <option value="Al Kharj">Al Kharj</option>
+                                  <option value="Al Jubayl">Al Jubayl</option>
+                                  <option value="Ar'ar">Ar'ar</option>
+                                  <option value="Abha">Abha</option>
+                                  <option value="Jazan">Jazan</option>
+                                  <option value="Dhahran">Dhahran</option>
+                                  <option value="Mecca">Mecca</option>
+                                  
                               </select>
                               <button type="submit"><i class="fa fa-search"></i></button>
                              
