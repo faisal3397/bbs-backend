@@ -36,7 +36,7 @@ class RegistrationController extends Controller
         // Encrypt the password
         $pass = request('password'); // get the password
         $password = bcrypt($pass);  // encrypt
-        // Create and save the user
+        // Create and save the user 
 
         $user = new User;
         
