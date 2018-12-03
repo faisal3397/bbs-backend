@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Input;
 class SearchController extends Controller
 {
     public function find() {
+        
   
     $city='Riyadh';
     $bloodtype =  Input::get( 'bloodtype' );
