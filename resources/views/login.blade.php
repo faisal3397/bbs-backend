@@ -39,13 +39,13 @@
 					<span class="login100-form-title p-b-33">
 						Login
 					</span>
-
+					Phone number:
 					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: 0555555555">
 						<input class="input100" type="text"  placeholder="Phone" name="phonenumber">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Password:
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
 						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100-1"></span>

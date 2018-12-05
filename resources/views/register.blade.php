@@ -41,25 +41,26 @@
 						Sign up
 					</span>
 
-
+					Phone number:
 					<div class="wrap-input100 validate-input" data-validate = "Valid phone is required: 0555555555">
+					
 						<input class="input100" type="text"  placeholder="Phone" name="phonenumber">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Full name:
 					<div class="wrap-input100 validate-input" data-validate = "Valid name is required">
 						<input class="input100" type="text" name="name" placeholder="Name" id="name">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Date of birth:
 					<div class="wrap-input100 validate-input" data-validate = "Valid age is required">
 						<input class="input100" type="date" name="age" placeholder="Age" id="age">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					City:
 					<div class="wrap-input100 validate-input" data-validate = "Valid city is required">
 						<!-- <input class="input100" type="text" name="city" placeholder="City"> -->
 						<select class="select1 input100" name="city">
@@ -87,7 +88,7 @@
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Blood type:
 					<div class="wrap-input100 validate-input" data-validate = "Valid blood type is required: A+ , B+ ...etc">
 						<!-- <input class="input100" type="text" name="bloodtype" placeholder="Blood Type"> -->
 							<select  class= "input100 select1" name="bloodtype">
@@ -103,13 +104,13 @@
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Password:
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
 						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
-
+					Re-enter your password:
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
 						<input class="input100" type="password" name="password_confirmation" placeholder="Password Confirmation">
 						<span class="focus-input100-1"></span>

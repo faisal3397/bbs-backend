@@ -59,7 +59,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50" style="width: 60% !important">
 					<span class="login100-form-title p-b-33">
-						Search Results
+						Search Results 
 					</span>
                     @if ($donors->isEmpty())
                         <h2 id = "donter">{{"No Results found!"}}</h2>

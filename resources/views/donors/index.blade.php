@@ -22,6 +22,7 @@
                             Search for doner
                         </a> -->
                         <a href="#" class="js-open-modal btn btn-white btn-fill btn-lg">Search for donor</a>
+                        <a href="#bloods" class=" btn btn-white btn-fill btn-lg">Blood types</a>
                         <div id="modal" class="modal"> <!--OVerlay-->
 
                           <div class="overlay-content" >
@@ -64,7 +65,6 @@
                               </select>
 
                               <button type="submit" class="button1"><i class="fa fa-search fa-lg"></i></button>
-                             
                             </form>
                           </div>
                         </div>
@@ -74,6 +74,156 @@
             </div>
         </div>
     </div>  <!-- Homepage body -->
+
+
+    <div  id="bloods" class="section section-our-team-freebie">
+        <div>
+            <div  style="background-color: #fa8072">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="title-area">
+                            <h2> Blood Types </h2>
+                            <h3> Which types are compatible ? </h3>
+                            <div class="separator separator-danger"></div>
+                        </div>
+                    </div>
+
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">A+</h2>
+                                                  <p class = "title">A+ compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>A +/-</li>
+                                                    <li>O +/-</li>
+                                                </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">B+</h2>
+                                                    <p class = "title">B+ compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>B +/-</li>
+                                                    <li>O +/-</li>
+                                                </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">O+</h2>  
+                                                    <p class = "title">O+ compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>O +</li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">AB+</h2>
+                                                    <p class = "title">AB+ compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>AB +/-</li>
+                                                    <li>A +/-</li>
+                                                    <li>B +/-</li>
+                                                    <li>O +/-</li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                               
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">A-</h2>
+                                                    <p class = "title">A- compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>A -</li>
+                                                    <li>O -</li>
+                                                </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">B-</h2>
+                                                    <p class = "title">B- compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>B -</li>
+                                                    <li>O -</li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">O-</h2>
+                                                    <p class = "title">O- compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>O -</li>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="description">
+                                                    <br>
+                                                    <h2 class="title">AB-</h2>
+                                                    <p class = "title">AB- compatible with </p>
+                                                  <ul class = "title">
+                                                    <li>A -</li>
+                                                    <li>B -</li>
+                                                    <li>O -</li>
+                                                </div>
+                                            </div>
+                                       
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--blood types -->
+
+
+
 
     <div class="section section-our-team-freebie">
         <div class="parallax filter filter-color-black">
